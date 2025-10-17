@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "balancing_stepper_bot_symbol_libary")(type "KiCad")(uri "${KIPRJMOD}/balancing_stepper_bot_symbol_libary.kicad_sym")(options "")(descr ""))
+)

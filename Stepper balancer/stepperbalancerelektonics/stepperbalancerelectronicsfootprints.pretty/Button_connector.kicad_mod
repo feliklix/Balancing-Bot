@@ -1,0 +1,112 @@
+(footprint "Button_connector"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "68db4ffb-0e17-425d-a981-4001e9ac31f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Button_connector"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e8935c36-f687-4604-ac3e-3217154bc0f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43a7bb82-ca43-4a57-bcc7-5c84addfaf6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d87fcf1-3a01-48f8-b1c0-1a6227b8a92f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "Button 1"
+		(at -7.62 7.62 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "17249f4b-baa8-4bbf-86dc-a3a060469807")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Button 2"
+		(at 7.62 7.62 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1ffe3c83-a12a-4302-b8a7-a2089bfcbe7d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "79bd77d3-7828-4c68-9a6a-ffef2ee5665f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -7.62 5.08)
+		(size 5 5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d6ecfb51-806e-4263-b3c7-63e6c1122b23")
+	)
+	(pad "2" thru_hole rect
+		(at 7.62 5.08)
+		(size 5 5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7f03660-7b03-4713-b760-09e2cc7d57d3")
+	)
+	(embedded_fonts no)
+)
